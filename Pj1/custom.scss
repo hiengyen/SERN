@@ -1,0 +1,103 @@
+/* reset margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner {
+    height: 865px;
+    width: auto;
+    background: url('./banner.jpg') no-repeat center center;
+    margin: 0;
+    padding: 0;
+
+    .about-sign_in {
+        height: 80px;
+        width: 100%;
+        text-align: right;
+        text-decoration: none;
+
+        .about,
+        .sign_in {
+            margin-top: 20px;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 15px;
+        }
+
+        .sign_in {
+            margin-right: 60px;
+            margin-left: 25px;
+            border: 1px solid green;
+            color: green;
+            border-radius: 20px;
+        }
+
+        .sign_in:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .logo {
+        background: url('./hapoERP.png') no-repeat center center;
+        height: 100px;
+        margin-top: 200px;
+    }
+
+    .text span {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 16px;
+        font-style: italic;
+        display: block;
+    }
+
+    .bt-start-now {
+        text-align: center;
+
+        button {
+            color: white;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            border-radius: 20px;
+            border: 1px solid green;
+            margin-top: 20px;
+            background-color: greenyellow;
+            margin-top: 25px;
+            cursor: pointer;
+        }
+    }
+
+    .content-center {
+        text-align: center;
+
+        .left,
+        .center,
+        .right {
+            display: inline-block;
+        }
+
+        .left {
+            margin-right: 120px;
+        }
+
+        .right {
+            margin-left: 120px;
+        }
+
+        img {
+            height: 40px;
+            width: 40px;
+        }
+
+        span {
+            display: block;
+            font-size: 20px;
+            padding-bottom: 5px;
+        }
+    }
+}
+
+
